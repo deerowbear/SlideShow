@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="265.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SlideShowController">
+   <children>
+      <Button fx:id="selectFiles" layoutX="52.0" layoutY="37.0" mnemonicParsing="false" onAction="#selectFiles" text="Browse" />
+      <Button fx:id="createSlideShow" layoutX="117.0" layoutY="37.0" mnemonicParsing="false" onAction="#createSlideShow" text="Create Slide Show" />
+      <Button fx:id="pause" layoutX="242.0" layoutY="37.0" mnemonicParsing="false" onAction="#pause" text="Pause" />
+      <Button fx:id="restart" layoutX="298.0" layoutY="37.0" mnemonicParsing="false" onAction="#restart" text="Restart" />
+      <ImageView fx:id="imageView" fitHeight="150.0" fitWidth="287.0" layoutX="50.0" layoutY="71.0" pickOnBounds="true" preserveRatio="true" styleClass="image-view-border" />
+      <Label fx:id="fileNameLabel" layoutX="52.0" layoutY="229.0" prefHeight="17.0" prefWidth="323.0" />
+   </children>
+</Pane>

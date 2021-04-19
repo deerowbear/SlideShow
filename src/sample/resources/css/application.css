@@ -1,0 +1,8 @@
+.image-view-border {
+    -fx-border-color: black;
+    -fx-border-style: solid;
+}
+
+.root {
+    -fx-background-color: red;
+}
