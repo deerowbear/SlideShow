@@ -33,9 +33,6 @@ public class FileLocalServiceImpl implements FileLocalService {
     @Override
     public void configureFileChooser(FileChooser fileChooser) {
         fileChooser.setTitle("Select images");
-        fileChooser.setInitialDirectory(
-                new File("C:/Users/maryc/SlideShow/src/sample/resources/images")
-        );
         fileChooser.getExtensionFilters().addAll(new FileChooser.ExtensionFilter("JPG", "*.jpg"));
         fileChooser.getExtensionFilters().addAll(new FileChooser.ExtensionFilter("JPEG", "*.jpeg"));
     }
